@@ -2,8 +2,8 @@
 
 // WARNING: NEVER DO THIS IN PRODUCTION
 $servername = "localhost";
-$username = getenv('DB_USER');
-$password = getenv('DB_PW');
+$username = getenv("DB_USER");
+$password = getenv("DB_PW");
 $database = "todo_db";
 
 $conn = new mysqli($servername, $username, $password, $database);
